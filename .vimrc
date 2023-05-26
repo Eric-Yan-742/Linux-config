@@ -43,3 +43,7 @@ set statusline+=\ %=                        " align left
 set statusline+=Line:%l/%L[%p%%]            " line X of Y [percent of file]
 set statusline+=\ Col:%c                    " current column
 set statusline+=\ [%b][0x%B]\               " ASCII and byte code under cursor
+
+" Indent multiple lines quickly
+vnoremap < <gv
+vnoremap > >gv
