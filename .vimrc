@@ -70,8 +70,8 @@ nmap <Leader>8 <Plug>lightline#bufferline#go(8)
 nmap <Leader>9 <Plug>lightline#bufferline#go(9)
 nmap <Leader>0 <Plug>lightline#bufferline#go(10)
 
-map <leader>n :bnext<cr>
-map <leader>p :bprevious<cr>
+map <S-L> :bnext<cr>
+map <S-H> :bprevious<cr>
 map <leader>d :bdelete<cr>
 
 
