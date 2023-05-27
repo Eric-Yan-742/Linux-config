@@ -70,10 +70,10 @@ nmap <Leader>8 <Plug>lightline#bufferline#go(8)
 nmap <Leader>9 <Plug>lightline#bufferline#go(9)
 nmap <Leader>0 <Plug>lightline#bufferline#go(10)
 
-nmap <Tab>   <Plug>lightline#bufferline#go_next()
-nmap <S-Tab> <Plug>lightline#bufferline#go_previous()
-nmap <Leader><Tab>   <Plug>lightline#bufferline#go_next_category()
-nmap <Leader><S-Tab> <Plug>lightline#bufferline#go_previous_category()
+map <leader>n :bnext<cr>
+map <leader>p :bprevious<cr>
+map <leader>d :bdelete<cr>
+
 
 "Delete buffer
 nmap <Leader>c1 <Plug>lightline#bufferline#delete(1)
