@@ -59,7 +59,7 @@ let g:lightline#bufferline#composed_ordinal_number_map = {
 \ 1:  '1.', 2:  '2.', 3:  '3.', 4:  '4.', 5:  '5.',
 \ 6:  '6.', 7:  '7.', 8:  '8.', 9:  '9.'}
 "Switch buffer
-map <Leader>1 <Plug>lightline#bufferline#go(1)
+nmap <Leader>1 <Plug>lightline#bufferline#go(1)
 nmap <Leader>2 <Plug>lightline#bufferline#go(2)
 nmap <Leader>3 <Plug>lightline#bufferline#go(3)
 nmap <Leader>4 <Plug>lightline#bufferline#go(4)
@@ -88,3 +88,7 @@ nmap <Leader>c9 <Plug>lightline#bufferline#delete(9)
 nmap <Leader>c0 <Plug>lightline#bufferline#delete(10)
 
 set hidden
+
+"highlight search
+set hlsearch
+map <Leader>n :noh<cr>
