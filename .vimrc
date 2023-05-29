@@ -92,3 +92,5 @@ set hidden
 "highlight search
 set hlsearch
 map <Leader>n :noh<cr>
+"file tree
+map <Leader>e :E<cr>
