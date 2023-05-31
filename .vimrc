@@ -4,6 +4,7 @@ let mapleader = " " " map leader to Space
 set tabstop=3
 set shiftwidth=3
 set expandtab
+set autoindent
 colorscheme slate
 set number
 "set colorcolumn=80
