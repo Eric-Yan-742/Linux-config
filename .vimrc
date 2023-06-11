@@ -4,7 +4,6 @@ let mapleader = " " " map leader to Space
 set tabstop=3
 set shiftwidth=3
 set expandtab
-set autoindent
 colorscheme slate
 set number
 "set colorcolumn=80
@@ -30,7 +29,7 @@ endif
 call plug#begin()
    Plug 'itchyny/lightline.vim' "lightline
    Plug 'mengelbrecht/lightline-bufferline' "lightline bufferline
-
+   Plug 'preservim/nerdtree' "nerdtree
 call plug#end()
 
 "lightline and lightline bufferline
@@ -92,6 +91,9 @@ set hidden
 
 "highlight search
 set hlsearch
-map <Leader>n :noh<cr>
-"file tree
-map <Leader>e :E<cr>
+nnoremap <Leader>n :noh<cr>
+"NERD Tree
+nnoremap <Leader>e :NERDTreeToggle<CR>
+"switch windows
+nnoremap <C-H> <C-W>h
+nnoremap <C-L> <C-W>w
