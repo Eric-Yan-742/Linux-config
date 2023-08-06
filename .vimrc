@@ -97,3 +97,7 @@ nnoremap <Leader>e :NERDTreeToggle<CR>
 "switch windows
 nnoremap <C-H> <C-W>h
 nnoremap <C-L> <C-W>w
+"map SAVE to Ctrl+S
+noremap <silent> <C-S>          :update<CR>
+vnoremap <silent> <C-S>         <C-C>:update<CR>
+inoremap <silent> <C-S>         <C-O>:update<CR>
